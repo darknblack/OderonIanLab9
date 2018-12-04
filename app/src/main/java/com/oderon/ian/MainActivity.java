@@ -1,9 +1,8 @@
-    package com.oderon.ian;
+package com.oderon.ian;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -13,7 +12,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.FirebaseStorage;
 
     public class MainActivity extends AppCompatActivity {
 
@@ -21,9 +19,6 @@ import com.google.firebase.storage.FirebaseStorage;
 
     EditText eName, eAge, eGender;
     TextView tName, tAge, tGender;
-    Button bSearch;
-
-    ValueEventListener mListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,14 +35,6 @@ import com.google.firebase.storage.FirebaseStorage;
         tAge = findViewById(R.id.rAge);
         tGender = findViewById(R.id.rGender);
 
-        bSearch = findViewById(R.id.bSearch);
-
-//        bSearch.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast("Hey");
-//            }
-//        });
     }
 
     public void search(View v) {
@@ -72,10 +59,10 @@ import com.google.firebase.storage.FirebaseStorage;
                     }
                 }
 
-                Toast("Record not found...");
                 tName.setText("");
                 tAge.setText("");
                 tGender.setText("");
+                Toast("Record not found...");
             }
 
             @Override
