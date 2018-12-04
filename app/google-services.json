@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "767507525688",
+    "firebase_url": "https://oderonianlab9.firebaseio.com",
+    "project_id": "oderonianlab9",
+    "storage_bucket": "oderonianlab9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767507525688:android:0d875e10df486c7d",
+        "android_client_info": {
+          "package_name": "com.oderon.ian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767507525688-h11pl4r5ldqqegcg0h5jps9hhkaknmnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oderon.ian",
+            "certificate_hash": "5dd03a305283b101e82b413fcde17f08d8bb7b3a"
+          }
+        },
+        {
+          "client_id": "767507525688-qgch9shg2d0ksg2914qdaaphv6qqpnqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm9Je64sYMMiYFsjo5vNWNAawSO1mvUIY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767507525688-qgch9shg2d0ksg2914qdaaphv6qqpnqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
