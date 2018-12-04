@@ -76,7 +76,6 @@ import com.google.firebase.storage.FirebaseStorage;
                 tName.setText("");
                 tAge.setText("");
                 tGender.setText("");
-                Toast("Record found...");
             }
 
             @Override
